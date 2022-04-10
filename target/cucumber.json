@@ -11,49 +11,93 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 4392292800,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on SauceDemo login page",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_is_on_sauce_demo_login_page()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2022-04-10T11:40:24.420Z",
+        "start_timestamp": "2022-04-10T13:06:27.616Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7785913600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
         "line": 14,
         "name": "To validate the positive login",
         "description": "",
         "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-positive-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 105644700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 267752900,
+              "status": "passed"
             },
             "line": 8,
-            "name": "User enters Username \"\u003cUserNameval\u003e\" and Password \"\u003cPasswordval\u003e\"",
-            "match": {},
+            "name": "User enters Username \"standard_user\" and Password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 156359600,
+              "status": "passed"
             },
             "line": 9,
             "name": "User clicks on Login button",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_clicks_on_login_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 45017100,
+              "status": "passed"
             },
             "line": 10,
             "name": "User lands on the Product Page",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_lands_on_the_product_page()"
+            },
             "keyword": "Then "
           }
         ],
@@ -72,49 +116,93 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 3378415600,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on SauceDemo login page",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_is_on_sauce_demo_login_page()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2022-04-10T11:40:24.486Z",
+        "start_timestamp": "2022-04-10T13:06:40.426Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6306697000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
         "line": 15,
         "name": "To validate the positive login",
         "description": "",
         "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-positive-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 86309900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 235079300,
+              "status": "passed"
             },
             "line": 8,
-            "name": "User enters Username \"\u003cUserNameval\u003e\" and Password \"\u003cPasswordval\u003e\"",
-            "match": {},
+            "name": "User enters Username \"problem_user\" and Password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 143474500,
+              "status": "passed"
             },
             "line": 9,
             "name": "User clicks on Login button",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_clicks_on_login_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 36114300,
+              "status": "passed"
             },
             "line": 10,
             "name": "User lands on the Product Page",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_lands_on_the_product_page()"
+            },
             "keyword": "Then "
           }
         ],
@@ -133,49 +221,99 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 3338004000,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on SauceDemo login page",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_is_on_sauce_demo_login_page()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2022-04-10T11:40:24.492Z",
+        "start_timestamp": "2022-04-10T13:06:50.616Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6321255200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
         "line": 25,
         "name": "To validate the negative login",
         "description": "",
         "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-negative-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 145706100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 193830900,
+              "status": "passed"
             },
             "line": 19,
-            "name": "User enters Username \"\u003cUserNameval\u003e\" and Password \"\u003cPasswordval\u003e\"",
-            "match": {},
+            "name": "User enters Username \"Rohit\" and Password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rohit\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 76924300,
+              "status": "passed"
             },
             "line": 20,
             "name": "User clicks on Login button",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_clicks_on_login_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 41966900,
+              "status": "passed"
             },
             "line": 21,
             "name": "User gets the error message as \"Epic sadface: Username and password do not match any user in this service\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.user_gets_the_error_message_as(String)"
+            },
             "keyword": "Then "
           }
         ],
@@ -194,49 +332,99 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 3279511200,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on SauceDemo login page",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_is_on_sauce_demo_login_page()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2022-04-10T11:40:24.502Z",
+        "start_timestamp": "2022-04-10T13:07:00.741Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6287802000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
         "line": 26,
         "name": "To validate the negative login",
         "description": "",
         "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-negative-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 131170600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 191517400,
+              "status": "passed"
             },
             "line": 19,
-            "name": "User enters Username \"\u003cUserNameval\u003e\" and Password \"\u003cPasswordval\u003e\"",
-            "match": {},
+            "name": "User enters Username \"Invalid\" and Password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 83225300,
+              "status": "passed"
             },
             "line": 20,
             "name": "User clicks on Login button",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_clicks_on_login_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 36686600,
+              "status": "passed"
             },
             "line": 21,
             "name": "User gets the error message as \"Epic sadface: Username and password do not match any user in this service\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.user_gets_the_error_message_as(String)"
+            },
             "keyword": "Then "
           }
         ],

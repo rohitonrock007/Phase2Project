@@ -21,12 +21,12 @@ public class LoginSteps {
 	}
 
 	@When("User enters Username {string} and Password {string}")
-	public void user_enters_username_and_password(String UserNameval, String Passwordval) {
+	public void user_enters_username_and_password(String username, String password) {
 	    // Write code here that turns the phrase above into concrete actions
 		WebElement Username=driver.findElement(By.id("user-name"));
     	WebElement Password=driver.findElement(By.id("password"));
-    	Username.sendKeys(UserNameval);
-    	Password.sendKeys(Passwordval);
+    	Username.sendKeys(username);
+    	Password.sendKeys(password);
 	}
 
 	@When("User clicks on Login button")

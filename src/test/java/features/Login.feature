@@ -5,7 +5,7 @@ Feature: This feature would be used to design the Login page of the application
 
   @Sainty
   Scenario Outline: To validate the positive login
-    When User enters Username "<UserNameval>" and Password "<Passwordval>"
+    When User enters Username "<username>" and Password "<password>"
     And User clicks on Login button
     Then User lands on the Product Page
 
@@ -16,7 +16,7 @@ Feature: This feature would be used to design the Login page of the application
 
   @Sainty
   Scenario Outline: To validate the negative login
-    When User enters Username "<UserNameval>" and Password "<Passwordval>"
+    When User enters Username "<username>" and Password "<password>"
     And User clicks on Login button
     Then User gets the error message as "Epic sadface: Username and password do not match any user in this service"
 

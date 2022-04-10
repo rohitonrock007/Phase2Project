@@ -13,10 +13,9 @@ plugin= {"html:target/html.cucumber","json:target/cucumber.json"},
 features = "src/test/java/features",
 //		tags = {"@U_Product"},
 tags = {"@Sainty"},
-		glue = {"stepDefs"}
+		glue = {"stepsDefs"}
 
 )
-
 
 public class TestRunner {
 	
