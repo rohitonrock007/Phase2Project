@@ -1,0 +1,257 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the Swag Labs application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on SauceDemo login page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T11:40:24.420Z",
+        "line": 14,
+        "name": "To validate the positive login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-positive-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enters Username \"\u003cUserNameval\u003e\" and Password \"\u003cPasswordval\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User clicks on Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User lands on the Product Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sainty"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the Swag Labs application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on SauceDemo login page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T11:40:24.486Z",
+        "line": 15,
+        "name": "To validate the positive login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-positive-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enters Username \"\u003cUserNameval\u003e\" and Password \"\u003cPasswordval\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User clicks on Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User lands on the Product Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sainty"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the Swag Labs application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on SauceDemo login page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T11:40:24.492Z",
+        "line": 25,
+        "name": "To validate the negative login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-negative-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User enters Username \"\u003cUserNameval\u003e\" and Password \"\u003cPasswordval\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User clicks on Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "User gets the error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sainty"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the Swag Labs application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on SauceDemo login page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T11:40:24.502Z",
+        "line": 26,
+        "name": "To validate the negative login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-negative-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User enters Username \"\u003cUserNameval\u003e\" and Password \"\u003cPasswordval\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User clicks on Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "User gets the error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sainty"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to design the Login page of the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
